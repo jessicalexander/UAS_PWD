@@ -1,0 +1,234 @@
+@font-face {
+    font-family: "header";
+    src: url(./font/chilling_trickster/Chilling\ Trickster\ Free.ttf);
+}
+@font-face {
+    font-family: "text";
+    src: url(./font/Glass_Antiqua/GlassAntiqua-Regular.ttf);
+}
+.header{
+    font-family: "header" !important;
+}
+.text{
+    font-family: "text" !important
+}
+.cream-bg{
+    background-color: #EFECDB !important;
+}
+.cream-txt{
+    color: #EFECDB !important;
+}
+.red-bg{
+    background-color: #E74043 !important;
+}
+.red-txt{
+    color: #E74043 !important;
+}
+.black-bg{
+    background-color: #0F0F0F;
+}
+.btn{
+    background-image: url(./media/button-before.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.submit:hover{
+    background-image: url(./media/button-after.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 0.4s;
+}
+.divider{
+    background-color: #0F0F0F !important;
+}
+.icon {
+    color:#EFECDB;
+}
+.icon:hover{
+    color:#E74043;
+}
+.isi-kupon{
+    background-image: url(./media/56ae26cdcf08ec0b08eee2be75ec1c95adce5b42.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.isi{
+    width:50%
+}
+.shadow{
+    text-shadow: 2px 2px 5px #0F0F0F;
+}
+input{
+    box-shadow: 0px 0px 15px #E74043
+}
+.bg-kupon{
+    background-image: url(./media/bg-kupon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-img{
+    width: 11%
+}
+.language{
+    width:25%
+}
+/* scroll */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background:#0F0F0F;
+    box-shadow: inset 0 0 5px #1F1919; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #E74043;
+    border-radius: 10px;  
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #EA3322; 
+  }
+.menu:link, .menu:visited{
+    color: #EFECDB;
+    text-decoration: none;
+}.menu:hover{
+    color:#E74043;
+    transition: 0.3s;
+}
+.outside:link, .outside:visited{
+    color: #E74043 !important;
+    text-decoration: none;
+}
+.mobile-menu:link, .mobile-menu:visited{
+    color: #EFECDB;
+    text-decoration: none;
+}
+/* navbar */
+header{
+    background-color: 	rgba(15,15,15,.85);
+    height: 10vh;
+    z-index: 99;
+    position: fixed;
+    width: 100%
+}
+.logo{
+    display: inline-block;
+    margin-left: 5vh;
+    line-height: 10vh;
+}
+nav{
+    margin-left: 5vh;
+    line-height: 10vh;
+    float: right;
+    padding-right: 5vh;
+    font-family: "header";
+    font-size: 1.5em;
+}
+.menu{
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+.atas{
+    padding-top: 13vh;
+}
+.outside{
+    display: none;
+    line-height: 10vh;
+    float: right;
+    font-size: 2.3em;
+}
+.hamburger{
+    display: none;
+    border: none;
+    background-color: transparent;
+    float: right;
+    line-height: 10vh;
+    cursor: pointer;
+    padding-top: 1.5vh;
+    margin-right: 2vh;
+    margin-left: 2vh;
+}
+
+/* mobile nav*/
+.mobile-nav{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 100%;
+    width: 75%;
+    height: 100vh;
+    z-index: 98;
+    background-image: url(./media/bg-kupon.jpg);
+    transition: 0.4s;
+    font-family: "header";
+    font-size: 1.5em;
+}
+.mobile-nav.is-active{
+    right: 0;
+}
+.mobile-menu{
+    display: block;
+    text-align: center;
+    width: 100%
+}
+.before{
+    display: block;
+    line-height: 10vh;
+}
+.before.is-active{
+    display: none;
+    line-height: 10vh;
+}
+.after{
+    display: none;
+    line-height: 10vh;
+}
+.after.is-active{
+    display: block;
+    line-height: 10vh;
+}
+
+.kosong{
+    height: 10vh;
+    background-color: rgba(15,15,15,.75);
+}
+@media screen and (max-width: 800px){
+    .img-banner{
+        object-fit: cover;
+        height: 35vh;
+    }
+    .divi{
+        width: 75%;
+        margin-bottom: 5vh;
+    }
+    .isi{
+        width:75%
+    }
+    .deve{
+        width: 50%
+    }
+    .language{
+        width:50%
+    }
+    .logo{
+        margin-left: 3vh;
+    }
+    nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+    }
+    
+    .outside{
+        display: inline-block;
+    }
+    .hamburger{
+        display: inline-block;
+    }
+    .footer-img{
+        width: 24%
+    }
+}
+

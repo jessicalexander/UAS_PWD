@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cult of The Lamb</title>
+        <link rel="icon" type="image/x-icon" href="./media/icon.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="./home.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./swiper-bundle.min.css">
+    </head>
+    <body>
+<!-- navbar -->
+        <header>
+            <div>
+                <div class="logo">
+                    <a href="./home.html">
+                        <img src="./media/logo-red.png" width="90vh">
+                    </a>
+                </div>
+                <nav class="dektop-nav">
+                    <a href="https://merch.devolverdigital.co/collections/cult-of-the-lamb" class="menu"><i class="bi bi-cart4"></i></a>
+                    <a href="#game-overview" class="menu">Game Overview</a>
+                    <a href="#char" class="menu">Character</a>
+                    <a href="#story" class="menu">Story</a>
+                    <a href="./coupon.html" class="menu">Coupon Code</a>
+                </nav>
+                <button class="hamburger">
+                    <img class="before" src="./media/menu.svg" width="45vh">
+                    <img class="after" src="./media/close.svg" width="45vh">
+                </button>
+                <a href="https://merch.devolverdigital.co/collections/cult-of-the-lamb" class="outside"><i class="bi bi-cart4"></i></a>
+            </div>
+        </header>
+        <navigation class="mobile-nav">
+            <a href="#game-overview" class="mobile-menu atas">Game Overview</a><br>
+            <a href="#char" class="mobile-menu">Character</a><br>
+            <a href="#story" class="mobile-menu">Story</a><br>
+            <a href="./coupon.html" class="mobile-menu">Coupon Code</a>
+        </navigation>
+    <!-- filler -->
+    <div class="kosong"></div>
+    <!-- socmed samping -->
+    <div class="socmed">
+        <ul>
+            <li><a href="https://www.facebook.com/gaming/cultofthelamb/" class="icon-socmed" target="_blank"><i class="icon bi bi-facebook"></i></a></li>
+            <li><a href="https://twitter.com/cultofthelamb?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="icon-socmed"><i class="icon bi bi-twitter-x"></i></a></li>
+            <li><a href="https://www.youtube.com/@MassiveMonster" target="_blank" class="icon-socmed"><i class="icon bi bi-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/cultofthelambofficial/" target="_blank" class="icon-socmed"><i class="icon bi bi-instagram"></i></a></li>
+            <li><a href="https://discord.com/invite/massivemonster" target="_blank" class="icon-socmed"><i class="icon bi bi-discord"></i></a></li>
+            <li><a href="https://www.reddit.com/r/CultOfTheLamb/" target="_blank" class="icon-socmed"><i class="icon bi bi-reddit"></i></a></li>
+            <li><a href="https://store.steampowered.com/app/1313140/Cult_of_the_Lamb/" class="icon-socmed" target="_blank"><i class="icon bi bi-steam"></i></a></li>
+            <li class="plays">
+                <audio id="myaudio" src="./media/Cult of the Lamb [Official] - Praise the Lamb.mp3" autoplay loop=""></audio>
+                <button class="plays">
+                    <i class="bi bi-play-fill"></i>
+                    <i class="bi bi-play"></i>
+                </button>
+            </li>
+        </ul>
+    </div>
+    <!-- banner video -->
+    <div class="banner">
+        <div class="video-banner">        
+            <video autoplay loop muted plays-inline class="video">
+                <source src="./media/banner.mp4">
+            </video>
+        </div>
+        <div class="header-text">
+            <div class="logo-banner">
+                <img src="./media/logo-banner.svg" width="650vh" class="banner-pic">
+            </div>
+            <p class="text red-txt free">*is available as a free update</p>
+            <a href="https://store.steampowered.com/app/1313140/Cult_of_the_Lamb/" target="_blank">
+                <img src="./media/steam.png" class="steam">
+            </a>
+        </div>
+    </div>
+    <!-- section game overview -->
+    <section id="game-overview">
+        <img src="./media/smoky-gradient-divider-black.webp" class="section-divider">
+        <div class="inside-carousel">
+            <h2 class="header red-txt overview">Game Overview</h2>
+            <img src="./media/snake-div.webp" class="divi">
+            <div class="carousel mx-auto isi-carousel">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="100">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 0"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./media/build.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h4 class="cream-txt text">Build Your Flock</h4>
+                        <p class="cream-txt text">Collect and use resources to build new structures</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./media/challenge.webp" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h4 class="cream-txt text">Challenge Bosses!</h4>
+                        <p class="cream-txt text">Defeat those who oppose you!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./media/spread.webp" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h4 class="cream-txt text">Spread your Word</h4>
+                        <p class="cream-txt text">Train your flock, cleanse non-believer, spread enlightment, and perform rituals</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./media/battle.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h4 class="cream-txt text">Destroy the Non-Believers</h4>
+                        <p class="cream-txt text">Explore a sprawling, randomly generated world, fight off hordes of enemies and defeat rival cult leaders in order to absorb their power and assert your cult's dominance.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <img src="./media/snake-div.webp" class="divi rotate">
+        </div>
+        <!-- review -->
+        <div class="review">
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="review-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="./media/hege.webp" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name header black-txt fw-bold text-center">The Gamer</h2>
+                                <p class="description text black-txt text-center">“Cult of the Lamb sinks its claws into you.”</p>
+                                <p class="rating text black-txt text-center">10/10</p>
+                                <span class="star">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="review-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="./media/2.webp" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name header black-txt fw-bold text-center">Tom Marks - IGN</h2>
+                                <p class="description text black-txt text-center">“Cult of the Lamb 
+                                    is a wolf of a satisfying base-management game in the sheepish 
+                                    clothing of an approachable action-roguelite.”</p>
+                                <p class="rating text black-txt text-center">8/10</p>
+                                <span class="star">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="review-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="./media/3.webp" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name header black-txt fw-bold text-center">runnibabbit</h2>
+                                <p class="description text black-txt text-center">“like animal crossing but you kill god”</p>
+                                <p class="rating text black-txt text-center">9/10</p>
+                                <span class="star">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="review-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="./media/4.webp" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name header black-txt fw-bold text-center">Broccoli</h2>
+                                <p class="description text black-txt text-center">“Been playing this 
+                                    game for a while now and a new update is about to come out which 
+                                    makes it even more fun.”</p>
+                                <p class="rating text black-txt text-center">10/10</p>
+                                <span class="star">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="review-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="./media/5.webp" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name header black-txt fw-bold text-center">Joan Hudak</h2>
+                                <p class="description text black-txt text-center">“This game is hilarious, 
+                                    for mature audiences - it's like Farmville meets Gauntlet, but with cute 
+                                    fuzzy animals and sacrificial rituals.”</p>
+                                <p class="rating text black-txt text-center">8/10</p>
+                                <span class="star">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="review-card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="./media/6.webp" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name header black-txt fw-bold text-center">The Gamer</h2>
+                                <p class="description text black-txt text-center">“Gameplay is super 
+                                    fun and engaging. Cute little animals that get sacrificed and perform 
+                                    dark rituals is actually so funny.”</p>
+                                <p class="rating text black-txt text-center">10/10</p>
+                                <span class="star">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <img src="./media/smoky-gradient-divider-black-down.png" class="section-divider">
+    </section>
+    <!-- charcter -->
+    <div class="kos"></div>
+    <section id="char">
+        <div class="char-desk">
+            <div class="my-2 judul">
+                <img src="./media/title-left.webp" class="char-title" width="10%">
+                <h2 class="header cream-txt chara char-title">Characters</h2>
+                <img src="./media/title-left.webp" class="char-title" width="10%">
+                <p class="text cream-txt fs-6">Click for more info...</p>
+            </div>
+            <div class="kontainer">
+                <div class="cards lamb">
+                   <img src="./media/lamb.webp" alt="lamb" class="tokoh">
+                   <div class="intro">
+                        <h2 class="header fs-1">The Lamb</h2>
+                        <p class="desc text fs-5">Cult Leader</p>
+                    </div>
+                </div>
+                <div class="cards leshy">
+                    <img src="./media/leshy.gif" alt="leshy" class="tokoh">
+                     <div class="intro">
+                        <h2 class="header fs-1">Leshy</h2>
+                        <p class="desc text fs-5">Bishop of Chaos</p>
+                    </div>
+                </div>
+                <div class="cards heket">
+                    <img src="./media/heket.webp" alt="Heket" class="tokoh">
+                    <div class="intro">
+                        <h2 class="header fs-1">Heket</h2>
+                        <p class="desc text fs-5">Bishop of Famine</p>
+                    </div>
+                </div>
+                <div class="cards kallamar">
+                    <img src="./media/kallamar.webp" alt="kallamar" class="tokoh">
+                    <div class="intro">
+                        <h2 class="header fs-1">Kallamar</h2>
+                        <p class="desc text fs-5">Bishop of Pestilence</p>
+                    </div> 
+                </div>
+                <div class="cards shamura">
+                    <img src="./media/shamura.webp" alt="Shamura" class="tokoh">
+                    <div class="intro">
+                        <h2 class="header fs-1">Shamura</h2>
+                        <p class="desc text fs-5">Bishop of War</p>
+                    </div>
+                </div>
+                <div class="cards narinder">
+                    <img src="./media/Narinder.gif" alt="Narinder" class="tokoh">
+                    <div class="intro">
+                    <h2 class="header fs-1">Narinder</h2>
+                    <p class="desc text fs-5">????</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="char-info">
+            <button class="close"><i class="bi bi-x-circle-fill red-txt"></i></button> 
+            <div class="lamba">
+                <img src="./media/lamb-trans.webp" class="pt-5 mx-auto">
+                <h2 class="red-txt header fs-1 py-2">The lamb</h2>
+                <p class="text fs-5 px-3">The Lamb is the main protagonist and the only playable character</p>
+            </div>
+            <div class="leshya">
+                <img src="./media/lesh-trans.webp" class="pt-5 mx-auto" width="30%">
+                <h2 class="red-txt header fs-1 py-2">Leshy</h2>
+                <p class="text fs-5 px-3">One of the four Bishops of the Old Faith, the ruler of Darkwood. 
+                    He is the youngest bishop and a major boss in Cult of the Lamb. </p>
+            </div>
+            <div class="heketa">
+                <img src="./media/heket trans.webp" class="pt-5 mx-auto" width="30%">
+                <h2 class="red-txt header fs-1 py-2">Heket</h2>
+                <p class="text fs-5 px-3"> One of the four Bishops of the Old Faith. She is the second 
+                    youngest bishop, the ruler of Anura, and the second major boss in Cult of the Lamb.</p>
+            </div>
+            <div class="kallamara">
+                <img src="./media/Kallamar-trans.webp" class="pt-5 mx-auto" width="30%">
+                <h2 class="red-txt header fs-1 py-2">Kallamar</h2>
+                <p class="text fs-5 px-3">One of the four Bishops of the Old Faith, the ruler 
+                    of of Anchordeep, and the third major boss in Cult of the Lamb. The second 
+                    eldest bishop and known for his coward attitude.</p>
+            </div>
+            <div class="shamuraa">
+                <img src="./media/Shamura-trans.webp" class="pt-5 mx-auto" width="30%">
+                <h2 class="red-txt header fs-1 py-2">shamura</h2>
+                <p class="text fs-5 px-3">A purple non-binary spider who serves as the eldest of the four Bishops 
+                    of the Old Faith religion. They rule the Silk Cradle biome and are the fourth major boss in Cult of the Lamb.</p>
+                </div>
+                <div class="narindera">
+                    <img src="./media/Narinder-trans.webp" class="pt-5 mx-auto" width="30%">
+                    <h2 class="red-txt header fs-1 py-2">Narinder</h2>
+                    <p class="text fs-5 px-3">???????</p>
+                </div>
+        </div>
+    </section>
+    <!-- story -->
+    <section id="story">
+        <img src="./media/smoky-gradient-divider-black.webp" class="section-divider">
+        <img src="./media/smoky-gradient-divider-black-down.png" class="section-divider">
+        <div class="inside-story">
+            <div class="kosong1"></div>
+            <h2 class="cream-txt header story-title">Story</h2>
+                <div class="konten-story">
+                    <div class="isi-story">
+                        <div class="the-story">
+                            <p class="text black-txt stories">
+                                    Long ago, the lands of the old faith were not ruled by 4 bishops, but instead by hundreds of gods.
+                                    Even Haro does not know what happened to them. However, after them came 5 powerful beings: <br><br>
+                                    Leshy; chaos, Heket; famine, Kallamar; pestilience, Shamura; war, and Narinder; death<br><br>
+                                    While Narinder represented the only constant, he was the only one of the 5 who wanted change and have the meaning of death changed.
+                                    Leshy , youngest of the five has his eyes lost. Heket, with her throat cut neat. Kallamar's ears, torn from his head. And Shamura's skull was split.
+                                    These represents "see no evil, speak naught, hear nothing and think none" as The One Who Waits made it so. 
+                                    The 4, enraged, created 4 chains, each bound to one of their lives, and chained Narinder.<br><br>
+                                    One day, Shamura recieved a prophecy that a lamb would free Narinder. Narinder began sending vessels with his Red Crown 
+                                    to kill the bishops and start a cult in his name, however, none of them could kill even a single bishop and 
+                                    the bishops began sacrificing all the lambs in the land...<br><br>
+                                    ...Until one is left
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- footer --> 
+    <img src="./media/smoky-gradient-divider-black-down.png" class="section-divider">
+    <div class="kos1"></div>   
+    <footer class="isi-kupon text-center">
+        <img src="./media/Massive_Monster.webp" width="300vh" class="deve">
+        <h3 class="red-txt mt-3 fs-4 text">© 2023 Massive Monster. All rights reserved</h3>
+        <p class="red-txt text fs-6">Southampton, Southampton, United Kingdom <br>
+            massivemonster.co | @massivemonster.co.uk </p>
+        <img src="./media/Main_menu-animation.webp" class="footer-img">
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script src="./swiper-bundle.min.js"></script>
+    <script src="./home.js"></script>
+    </body>
+</html>
