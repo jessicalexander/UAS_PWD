@@ -27,6 +27,36 @@
 .black-bg{
     background-color: #0F0F0F;
 }
+.loader {
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F1919;
+    transition: opacity 0.75s, visibility 0.75s;
+}
+.loader::after{
+    content:"";
+    width: 80px;
+    height: 80px;
+    border: 10px solid #0F0F0F;
+    border-top-color:#EA3322;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite
+}
+.loader--hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+@keyframes loading {
+    from {transform: rotate(0turn)}
+    to {transform: rotate(1turn)}
+}
 .btn{
     background-image: url(./media/button-before.png);
     background-repeat: no-repeat;

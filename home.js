@@ -114,3 +114,7 @@ $(window).on("load", function(){
         $("#myaudio")[0].pause()
     })
 })
+
+window.addEventListener('load',()=>{
+    this.document.querySelector('.loader').classList.add("loader--hidden");
+})
