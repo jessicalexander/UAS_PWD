@@ -565,11 +565,8 @@ li{
 .footer-img{
     width: 11%
 }
-.kos1{
-    margin-top: -8.5vh;
-}
 .deve{
-    margin-top: 9vh;
+    margin-top: 5vh;
 }
 @media screen and (max-width: 750px){
     .logo{
@@ -649,11 +646,9 @@ li{
     .isi-story{
         background-image: url(./media/scrolls.png);
         max-height: 100vh;
-        
     }
     .konten-story{
         width: 50vh;
-
     }
     .story-title{
         font-size: 2.5em;
